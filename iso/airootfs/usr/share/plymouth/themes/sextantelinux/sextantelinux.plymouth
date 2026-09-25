@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Sextante Linux
+Description=Sextante Linux boot theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/sextantelinux
+ScriptFile=/usr/share/plymouth/themes/sextantelinux/sextantelinux.script

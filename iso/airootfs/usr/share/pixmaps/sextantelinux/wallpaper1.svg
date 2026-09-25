@@ -1,0 +1,27 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo base Azul oscuro -->
+  <rect width="1920" height="1080" fill="#0A1828"/>
+  
+  <!-- Gradiente radial para un brillo sutil en el centro -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#112A46" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0A1828" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+
+  <!-- Líneas topográficas abstractas (Verde Azulado) -->
+  <path d="M-100 200 Q 400 50, 960 400 T 2020 300" fill="none" stroke="#217D83" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M-100 250 Q 380 90, 940 450 T 2020 380" fill="none" stroke="#217D83" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M-100 300 Q 360 130, 920 500 T 2020 460" fill="none" stroke="#217D83" stroke-width="1.5" stroke-opacity="0.2"/>
+  <path d="M-100 350 Q 340 170, 900 550 T 2020 540" fill="none" stroke="#217D83" stroke-width="1" stroke-opacity="0.1"/>
+
+  <path d="M-100 800 Q 500 1100, 1100 700 T 2020 900" fill="none" stroke="#217D83" stroke-width="2.5" stroke-opacity="0.3"/>
+  <path d="M-100 850 Q 480 1150, 1080 750 T 2020 980" fill="none" stroke="#217D83" stroke-width="1.5" stroke-opacity="0.2"/>
+  
+  <!-- Estrella del Sextante difuminada en una esquina -->
+  <g transform="translate(1600, 200) scale(4)" opacity="0.05">
+    <path d="M10 0 L12 8 L20 10 L12 12 L10 20 L8 12 L0 10 L8 8 Z" fill="#FFFFFF"/>
+  </g>
+</svg>

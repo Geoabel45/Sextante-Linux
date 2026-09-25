@@ -1,0 +1,20 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo base gris muy claro -->
+  <rect width="1920" height="1080" fill="#F0F4F8"/>
+  
+  <!-- Elementos de fondo: Sol/Luna sutil -->
+  <circle cx="1500" cy="300" r="150" fill="#112A46" opacity="0.05"/>
+
+  <!-- Montañas poligonales al fondo (Verde azulado claro) -->
+  <polygon points="-50,800 300,450 650,800" fill="#217D83" opacity="0.1"/>
+  <polygon points="500,800 900,350 1400,800" fill="#217D83" opacity="0.15"/>
+  <polygon points="1200,800 1650,400 2100,800" fill="#217D83" opacity="0.1"/>
+
+  <!-- Montañas principales en primer plano (Azul oscuro) -->
+  <polygon points="-100,1080 400,600 1000,1080" fill="#112A46"/>
+  <polygon points="700,1080 1300,500 2000,1080" fill="#0A1828"/>
+  
+  <!-- Ondas de marea / "Código" en la base (Verde azulado vibrante) -->
+  <path d="M0 950 Q 240 900, 480 950 T 960 950 T 1440 950 T 1920 950 L 1920 1080 L 0 1080 Z" fill="#217D83" opacity="0.8"/>
+  <path d="M0 1000 Q 240 1050, 480 1000 T 960 1000 T 1440 1000 T 1920 1000 L 1920 1080 L 0 1080 Z" fill="#175c61" opacity="0.9"/>
+</svg>

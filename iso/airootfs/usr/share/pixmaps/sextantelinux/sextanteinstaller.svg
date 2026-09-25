@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Disco / Unidad de almacenamiento (Azul oscuro) -->
+  <rect x="12" y="32" width="40" height="24" rx="4" fill="#112A46"/>
+  <!-- Indicador LED del disco (Verde azulado) -->
+  <circle cx="44" cy="44" r="3" fill="#217D83"/>
+  <!-- Ranura / Detalle del disco -->
+  <line x1="18" y1="44" x2="36" y2="44" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Flecha grande de instalación (Verde azulado) -->
+  <path d="M32 6 L32 26 M20 16 L32 28 L44 16" fill="none" stroke="#217D83" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

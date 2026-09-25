@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo exterior grueso (Azul oscuro) -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#112A46" stroke-width="6"/>
+  <!-- Meridianos elípticos (Verde azulado) -->
+  <ellipse cx="32" cy="32" rx="12" ry="26" fill="none" stroke="#217D83" stroke-width="4"/>
+  <!-- Paralelo del Ecuador y secundarios (Verde azulado) -->
+  <line x1="6" y1="32" x2="58" y2="32" stroke="#217D83" stroke-width="4"/>
+  <line x1="12" y1="18" x2="52" y2="18" stroke="#217D83" stroke-width="4"/>
+  <line x1="12" y1="46" x2="52" y2="46" stroke="#217D83" stroke-width="4"/>
+</svg>

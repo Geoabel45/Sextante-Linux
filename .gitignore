@@ -1,0 +1,28 @@
+build/
+
+# Respaldos y archivos de desarrollo
+*.bak
+*.bak-*
+*.backup-*
+*.sho
+*o
+
+# Diagnósticos locales
+diagnosticos/
+
+# Laboratorio QEMU
+lab/
+
+# Caché Python
+__pycache__/
+*.pyc
+
+# Archivos de desarrollo que no se publican
+diagnosticos/
+lab/
+__pycache__/
+*.pyc
+*.bak
+*.bak-*
+*.backup-*
+*.sho

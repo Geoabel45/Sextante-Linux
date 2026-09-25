@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=FreeCAD
+Comment=Diseño CAD y herramientas para trabajo técnico
+Exec=FreeCAD
+Icon=org.freecad.FreeCAD
+Terminal=false
+Categories=Graphics;Engineering;

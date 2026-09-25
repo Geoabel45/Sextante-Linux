@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tapa de la papelera (Azul oscuro) -->
+  <path d="M14 16 L50 16 C52 16 54 18 54 20 L10 20 C10 18 12 16 14 16 Z" fill="#112A46"/>
+  <!-- Asa de la tapa -->
+  <rect x="26" y="10" width="12" height="6" rx="2" fill="#112A46"/>
+  <!-- Cuerpo del cesto (Verde azulado) -->
+  <path d="M14 24 L50 24 L46 56 C46 58 44 60 42 60 L22 60 C20 60 18 58 18 56 Z" fill="#217D83"/>
+  <!-- Ranuras verticales decorativas (Blancas) -->
+  <line x1="26" y1="30" x2="28" y2="52" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="38" y1="30" x2="36" y2="52" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="30" x2="32" y2="52" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

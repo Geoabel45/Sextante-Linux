@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=QGIS
+Comment=Sistema de Información Geográfica
+Exec=qgis
+Icon=qgis
+Terminal=false
+Categories=Science;Geography;GIS;

@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo exterior azul oscuro -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#112A46" stroke-width="4"/>
+  <!-- Puntos cardinales principales azul oscuro -->
+  <path d="M32 4 L38 26 L60 32 L38 38 L32 60 L26 38 L4 32 L26 26 Z" fill="#112A46"/>
+  <!-- Detalles de acento verde azulado -->
+  <path d="M32 4 L38 26 L32 32 Z" fill="#217D83"/>
+  <path d="M60 32 L38 38 L32 32 Z" fill="#217D83"/>
+  <path d="M32 60 L26 38 L32 32 Z" fill="#217D83"/>
+  <path d="M4 32 L26 26 L32 32 Z" fill="#217D83"/>
+  <!-- Centro blanco -->
+  <circle cx="32" cy="32" r="6" fill="#FFFFFF"/>
+  <circle cx="32" cy="32" r="2" fill="#112A46"/>
+</svg>

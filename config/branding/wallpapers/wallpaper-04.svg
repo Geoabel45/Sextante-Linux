@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <!-- Fondo nocturno oscuro -->
+  <rect width="1920" height="1080" fill="#08121C" />
+  
+  <!-- Estrellas simples -->
+  <circle cx="300" cy="200" r="2" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="1500" cy="150" r="3" fill="#FFFFFF" opacity="0.5" />
+  <circle cx="800" cy="300" r="1.5" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="1200" cy="400" r="2" fill="#FFFFFF" opacity="0.4" />
+  <circle cx="400" cy="550" r="2.5" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="1650" cy="450" r="1.5" fill="#FFFFFF" opacity="0.8" />
+  
+  <!-- Estrella gigante de brújula en el cielo (sutil) -->
+  <g transform="translate(960, 400) scale(5)" opacity="0.15">
+    <path d="M0 -30 L5 -5 L30 0 L5 5 L0 30 L-5 5 L-30 0 L-5 -5 Z" fill="#217D83" />
+    <path d="M0 -30 L5 -5 L0 0 Z" fill="#FFFFFF" />
+    <path d="M30 0 L5 5 L0 0 Z" fill="#FFFFFF" />
+    <path d="M0 30 L-5 5 L0 0 Z" fill="#FFFFFF" />
+    <path d="M-30 0 L-5 -5 L0 0 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- Colinas / Bosque ondulado (Verde Azulado y Marino) -->
+  <path d="M0 750 Q 400 650 960 800 T 1920 700 L 1920 1080 L 0 1080 Z" fill="#112A46" opacity="0.8" />
+  <path d="M0 850 Q 500 750 1200 900 T 1920 820 L 1920 1080 L 0 1080 Z" fill="#217D83" opacity="0.6"/>
+  <rect x="0" y="950" width="1920" height="130" fill="#08121C" opacity="0.8" />
+
+  <!-- Tipografía centrada en la base -->
+  <text x="960" y="980" font-family="sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="14">SEXTANTE LINUX</text>
+  <text x="960" y="1030" font-family="sans-serif" font-size="24" font-weight="bold" fill="#217D83" text-anchor="middle" letter-spacing="10">TERRITORIO EN CÓDIGO</text>
+</svg>

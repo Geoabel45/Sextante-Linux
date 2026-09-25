@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=GRASS GIS
+Comment=Sistema de Información Geográfica
+Exec=grass
+Icon=grass
+Terminal=false
+Categories=Science;Geography;GIS;

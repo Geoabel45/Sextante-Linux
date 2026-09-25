@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Terminal
+Exec=konsole
+Icon=/usr/share/pixmaps/sextantelinux/terminal.svg
+Terminal=false
+Categories=System;TerminalEmulator;

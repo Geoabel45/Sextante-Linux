@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Firefox
+GenericName=Navegador Web
+Comment=Navegador web de Sextante Linux
+Exec=firefox %u
+Icon=/usr/share/icons/sextante/firefox.svg
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true

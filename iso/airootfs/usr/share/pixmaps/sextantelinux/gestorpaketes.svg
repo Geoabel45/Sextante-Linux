@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cuerpo de la caja (Verde azulado) -->
+  <path d="M32 14 L8 26 L8 50 L32 62 L56 50 L56 26 Z" fill="#217D83"/>
+  <!-- Tapa superior de la caja (Azul oscuro) -->
+  <path d="M32 14 L8 26 L32 38 L56 26 Z" fill="#112A46"/>
+  <!-- Línea de profundidad y separación frontal -->
+  <line x1="32" y1="38" x2="32" y2="62" stroke="#112A46" stroke-width="4"/>
+  <!-- Estrella del Sextante en la cara izquierda -->
+  <path d="M22 42 L24 47 L29 49 L24 51 L22 56 L20 51 L15 49 L20 47 Z" fill="#FFFFFF"/>
+</svg>

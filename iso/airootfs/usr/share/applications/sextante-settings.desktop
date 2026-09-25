@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Configuración del Sistema
+Exec=systemsettings
+Icon=/usr/share/pixmaps/sextantelinux/configuracion-sistema.svg
+Terminal=false
+Categories=Settings;System;

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Instalar Sextante Linux
+GenericName=Instalador del sistema
+Comment=Instalar Sextante Linux en este equipo
+Exec=/usr/local/bin/sextante-installer
+Icon=/usr/share/pixmaps/sextantelinux/sextante-installer.svg
+Terminal=false
+Categories=System;
+StartupNotify=true

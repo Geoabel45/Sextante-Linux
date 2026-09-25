@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <!-- Cielo oscuro nocturno -->
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071018" />
+      <stop offset="100%" stop-color="#112A46" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#cielo)" />
+
+  <!-- Estrellas de fondo -->
+  <circle cx="350" cy="200" r="2" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="1500" cy="120" r="3" fill="#FFFFFF" opacity="0.4" />
+  <circle cx="850" cy="80" r="1.5" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="1700" cy="350" r="2" fill="#FFFFFF" opacity="0.5" />
+  <circle cx="200" cy="400" r="1.5" fill="#FFFFFF" opacity="0.7" />
+
+  <!-- Silueta de bosque y montañas -->
+  <path d="M0 650 L 50 580 L 120 630 L 180 560 L 250 640 L 320 550 L 400 620 L 480 540 L 550 630 L 620 560 L 700 650 L 800 580 L 880 660 L 950 570 L 1020 640 L 1100 550 L 1180 630 L 1250 560 L 1320 640 L 1400 570 L 1480 650 L 1550 580 L 1620 660 L 1700 550 L 1780 640 L 1850 570 L 1920 620 L 1920 1080 L 0 1080 Z" fill="#0A1828" />
+  
+  <!-- Segunda capa de bosque más oscura -->
+  <path d="M0 720 L 60 670 L 130 710 L 200 660 L 280 730 L 350 650 L 430 700 L 510 640 L 580 720 L 660 670 L 740 730 L 820 680 L 900 740 L 980 690 L 1050 750 L 1130 680 L 1210 730 L 1280 670 L 1360 740 L 1440 680 L 1510 750 L 1590 690 L 1670 740 L 1750 680 L 1820 730 L 1900 670 L 1920 700 L 1920 1080 L 0 1080 Z" fill="#050B14" />
+
+  <!-- Mar y oleaje en la base -->
+  <path d="M0 850 Q 240 820 480 850 T 960 850 T 1440 850 T 1920 850 L 1920 1080 L 0 1080 Z" fill="#112A46" />
+  <path d="M0 920 Q 240 960 480 920 T 960 920 T 1440 920 T 1920 920 L 1920 1080 L 0 1080 Z" fill="#1A5C61" />
+  <path d="M0 990 Q 240 950 480 990 T 960 990 T 1440 990 T 1920 990 L 1920 1080 L 0 1080 Z" fill="#217D83" />
+
+  <!-- Logotipo central en blanco -->
+  <g transform="translate(960, 380)">
+    <!-- Rosa de los vientos principal -->
+    <path d="M0 -70 L15 -20 L70 0 L15 20 L0 70 L-15 20 L-70 0 L-15 -20 Z" fill="#FFFFFF" />
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#FFFFFF" stroke-width="4" />
+    <circle cx="0" cy="0" r="15" fill="#112A46" />
+    <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+    
+    <!-- Estructura del sextante simplificada superior -->
+    <path d="M-10 -70 L-10 -200 L10 -200 L10 -70 Z" fill="#FFFFFF" />
+    <path d="M-10 -180 L-120 -40 L-100 -20 L10 -160 Z" fill="#FFFFFF" />
+    <path d="M10 -180 L120 -40 L100 -20 L-10 -160 Z" fill="#FFFFFF" />
+    <path d="M-120 -20 A 160 160 0 0 0 120 -20" fill="none" stroke="#FFFFFF" stroke-width="8" />
+    
+    <!-- Lente / Telescopio derecho -->
+    <rect x="30" y="-140" width="80" height="20" rx="2" fill="none" stroke="#FFFFFF" stroke-width="6" />
+
+    <!-- Textos del logotipo en blanco -->
+    <text x="0" y="160" font-family="sans-serif" font-size="76" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="12">SEXTANTE LINUX</text>
+    <text x="0" y="210" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="10">TERRITORIO EN CÓDIGO</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Globo terráqueo (Azul oscuro) -->
+  <circle cx="32" cy="32" r="22" fill="#112A46" />
+  
+  <!-- Líneas sutiles del globo (Verde azulado claro) -->
+  <path d="M14 32 A 18 18 0 0 0 50 32" fill="none" stroke="#217D83" stroke-width="2" opacity="0.6"/>
+  <path d="M32 14 A 18 18 0 0 0 32 50" fill="none" stroke="#217D83" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Cola y cuerpo del zorro envolviendo el globo (Verde azulado) -->
+  <path d="M32 4 C 16 4 6 18 10 34 C 14 50 30 60 46 54 C 58 50 62 36 56 26 C 50 16 38 18 38 18 C 48 24 50 38 42 48 C 34 58 18 54 14 42 C 10 30 18 16 32 12 Z" fill="#217D83"/>
+  
+  <!-- Cabeza y hocico del zorro -->
+  <path d="M32 12 L 40 18 L 34 26 L 24 20 L 22 8 Z" fill="#217D83"/>
+  
+  <!-- Ojo / Destello (Blanco) -->
+  <circle cx="30" cy="18" r="2" fill="#FFFFFF"/>
+</svg>

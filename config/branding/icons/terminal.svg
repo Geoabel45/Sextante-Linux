@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo de la ventana de terminal azul oscuro -->
+  <rect x="4" y="10" width="56" height="44" rx="6" fill="#112A46" />
+  <!-- Barra de título simulada en la parte superior -->
+  <path d="M4 16 C4 12.68 6.68 10 10 10 L54 10 C57.31 10 60 12.68 60 16 L60 20 L4 20 Z" fill="#217D83"/>
+  <!-- Botones de la ventana (rojo, amarillo, verde abstractos en blanco) -->
+  <circle cx="12" cy="15" r="2" fill="#FFFFFF"/>
+  <circle cx="18" cy="15" r="2" fill="#FFFFFF"/>
+  <circle cx="24" cy="15" r="2" fill="#FFFFFF"/>
+  <!-- Símbolo de prompt '>' en verde azulado -->
+  <polyline points="14,30 24,38 14,46" fill="none" stroke="#217D83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Guión bajo '_' parpadeante en blanco -->
+  <line x1="28" y1="46" x2="42" y2="46" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

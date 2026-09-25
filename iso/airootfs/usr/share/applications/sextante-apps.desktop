@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Aplicaciones
+GenericName=Tienda de aplicaciones
+Comment=Buscar e instalar aplicaciones
+Exec=plasma-discover
+Icon=/usr/share/icons/sextante/apps.svg
+Terminal=false
+Categories=Qt;KDE;System;
+StartupNotify=trueo

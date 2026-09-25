@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Gestor de Archivos
+Exec=dolphin
+Icon=/usr/share/pixmaps/sextantelinux/gestor-archivos.svg
+Terminal=false
+Categories=System;FileTools;

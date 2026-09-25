@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Configuración de Sextante Linux
+Exec=/usr/local/bin/sextante-plasma-setup
+Hidden=false
+NoDisplay=true
+X-KDE-autostart-after=panel
