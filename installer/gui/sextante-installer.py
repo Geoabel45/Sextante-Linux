@@ -291,15 +291,16 @@ class Installer(QMainWindow):
         self.process.started.connect(send_password)
 
         self.process.start(
-            "/usr/bin/pkexec",
-            [
-                ENGINE,
-                "--non-interactive",
-                disk,
-                username,
-                keyboard,
-            ],
-        )
+    "/usr/bin/pkexec",
+    [
+        "/usr/bin/bash",
+        ENGINE,
+        "--non-interactive",
+        disk,
+        username,
+        keyboard,
+    ],
+)
 
     def read_output(self):
         data = bytes(

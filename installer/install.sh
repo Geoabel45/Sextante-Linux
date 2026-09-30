@@ -74,9 +74,9 @@ echo "[1/7] PARTICIONANDO"
 echo "=========================================="
 
 if [[ "$NONINTERACTIVE" == true ]]; then
-    SEXTANTE_ASSUME_YES=1 "$BIN/partition-disk.sh" "$DISK"
+    SEXTANTE_ASSUME_YES=1 /usr/bin/bash "$BIN/partition-disk.sh" "$DISK"
 else
-    "$BIN/partition-disk.sh" "$DISK"
+    /usr/bin/bash "$BIN/partition-disk.sh" "$DISK"
 fi
 
 echo
@@ -84,28 +84,28 @@ echo "=========================================="
 echo "[2/7] MONTANDO DESTINO"
 echo "=========================================="
 
-"$BIN/mount-target.sh" "$DISK"
+/usr/bin/bash "$BIN/mount-target.sh" "$DISK"
 
 echo
 echo "=========================================="
 echo "[3/7] INSTALANDO SISTEMA"
 echo "=========================================="
 
-"$BIN/install-system.sh"
+/usr/bin/bash "$BIN/install-system.sh"
 
 echo
 echo "=========================================="
 echo "[4/7] CONFIGURANDO SISTEMA"
 echo "=========================================="
 
-"$BIN/configure-system.sh" "$KEYMAP"
+/usr/bin/bash "$BIN/configure-system.sh" "$KEYMAP"
 
 echo
 echo "=========================================="
 echo "[5/7] INSTALANDO BRANDING"
 echo "=========================================="
 
-"$BIN/install-branding.sh"
+/usr/bin/bash "$BIN/install-branding.sh"
 
 echo
 echo "=========================================="
@@ -113,10 +113,10 @@ echo "[6/7] CREANDO USUARIO"
 echo "=========================================="
 
 if [[ "$NONINTERACTIVE" == true ]]; then
-    printf '%s\n' "$PASSWORD" | "$BIN/create-user.sh" "$USERNAME" --stdin-password
+    printf '%s\n' "$PASSWORD" | /usr/bin/bash "$BIN/create-user.sh" "$USERNAME" --stdin-password
     unset PASSWORD
 else
-    "$BIN/create-user.sh" "$USERNAME"
+   /usr/bin/bash "$BIN/create-user.sh" "$USERNAME"
 fi
 
 echo
@@ -124,7 +124,7 @@ echo "=========================================="
 echo "[7/7] INSTALANDO GRUB"
 echo "=========================================="
 
-"$BIN/install-grub.sh"
+/usr/bin/bash "$BIN/install-grub.sh"
 
 echo
 echo "=========================================="
